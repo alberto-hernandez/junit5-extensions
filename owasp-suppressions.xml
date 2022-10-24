@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+  <suppress>
+    <notes><![CDATA[
+   file name: netty-codec-memcache-4.1.74.Final.jar
+   ]]></notes>
+    <sha1>b5254a87d6f3de04bac0f02407f74587f83e0d5c</sha1>
+    <cve>CVE-2022-24823</cve>
+  </suppress>
+
+  <suppress>
+    <notes><![CDATA[
+   file name: netty-codec-mqtt-4.1.74.Final.jar
+   ]]></notes>
+    <sha1>294c780483edd5a030b32ad31a697582dc8bf924</sha1>
+    <cve>CVE-2022-24823</cve>
+  </suppress>
+
+  <suppress>
+    <notes><![CDATA[
+   file name: netty-tcnative-boringssl-static-2.0.50.Final-osx-x86_64.jar
+   ]]></notes>
+    <sha1>5bb97a0278391b55db468cab30b883dc85a07770</sha1>
+    <cve>CVE-2011-1797</cve>
+  </suppress>
+
+  <suppress>
+    <notes><![CDATA[
+   file name: netty-transport-udt-4.1.74.Final.jar
+   ]]></notes>
+    <sha1>abf408510d2bded0231f4514aa2c86eb523cf52e</sha1>
+    <cve>CVE-2022-24823</cve>
+  </suppress>
+
+  <suppress>
+    <notes><![CDATA[
+   file name: protobuf-java-3.11.4.jar
+   ]]></notes>
+    <sha1>7ec0925cc3aef0335bbc7d57edfd42b0f86f8267</sha1>
+    <cve>CVE-2021-22569</cve>
+  </suppress>
+
+
+  <suppress>
+    <notes><![CDATA[
+   file name: protobuf-java-util-3.11.4.jar
+   ]]></notes>
+    <sha1>99a6a669e55f3d587ac8eb61857f7b81d0bbd7f7</sha1>
+    <cve>CVE-2021-22569</cve>
+  </suppress>
+
+</suppressions>
